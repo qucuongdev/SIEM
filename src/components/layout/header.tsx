@@ -20,7 +20,7 @@ export default function Header() {
 
       <div className='flex items-center gap-2 px-4'>
         <LocaleSwitcher />
-        <CtaGithub />
+        {/* <CtaGithub /> */}
         <div className='hidden md:flex'>
           <SearchInput />
         </div>
